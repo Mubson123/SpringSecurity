@@ -1,10 +1,10 @@
-package com.cedricmube.studentmanager;
+package com.cedricmube.usermanagement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class StudentManagerApplicationTests {
+class UserManagementApplicationTests {
 
 	@Test
 	void contextLoads() {

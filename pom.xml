@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.cedricmube</groupId>
-	<artifactId>student-manager</artifactId>
+	<artifactId>user-management</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>student-manager</name>
-	<description>Demo project for Spring Boot</description>
+	<name>user-management</name>
+	<description>user-management project</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
