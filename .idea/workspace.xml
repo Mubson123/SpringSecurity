@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d0ae10-c1e7-47bd-a565-c95785bfde56" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/UserManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/UserManagementApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/api/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/api/UserResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/UserManagementApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/UserManagementApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/api/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/api/UserResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/domain/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/service/UserServiceImpl.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +73,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="UserManagementApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -105,5 +116,16 @@
       <updated>1629482510112</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
