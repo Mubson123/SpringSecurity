@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.5.3</version>
+		<version>2.6.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.cedricmube</groupId>
-	<artifactId>user-management</artifactId>
+	<groupId>com.parcaune</groupId>
+	<artifactId>spr-bt-scrt</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>user-management</name>
-	<description>user-management project</description>
+	<name>spr-bt-scrt</name>
+	<description>Demo project for Spring Boot Security</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -29,11 +29,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.auth0/java-jwt -->
 		<dependency>
 			<groupId>com.auth0</groupId>
 			<artifactId>java-jwt</artifactId>
-			<version>3.18.1</version>
+			<version>3.18.2</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>

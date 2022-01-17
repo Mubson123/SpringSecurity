@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74d0ae10-c1e7-47bd-a565-c95785bfde56" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/UserManagementApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/UserManagementApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/api/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/api/UserResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cedricmube/usermanagement/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/UserManagementApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/UserManagementApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/api/UserResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/api/UserResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/domain/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/domain/Role.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cedricmube/usermanagement/service/UserServiceImpl.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +34,9 @@
         <entry key="JPA Inspector" value="true" />
         <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
@@ -52,11 +44,14 @@
         <entry key="JPA Inspector" value="false" />
         <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="false" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="1x0CEgAUZDojPvewN2NTnjH7Ezb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -73,12 +68,27 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.parcaune.security.Application" />
+      <module name="SpringSecurity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parcaune.security.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserManagementApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.cedricmube.usermanagement.UserManagementApplication" />
-      <module name="student-manager" />
+      <module name="SpringSecurity" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.cedricmube.usermanagement.*" />
@@ -89,19 +99,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="Application.UserManagementApplication" />
       </list>
     </recent_temporary>
@@ -127,5 +127,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
